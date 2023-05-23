@@ -1,0 +1,102 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.price_tight{
+    color: red;
+    text-decoration: none;
+    font-size: small;
+}
+.headText{
+   font-weight: bold;
+    color: white;
+    position: relative;
+    top: 6px;
+}
+.Dlogo{
+    position: relative;
+    left: 100px;
+}
+.navmenu{
+    position: relative;
+    left: 220px;
+}
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+    }
+    
+    .dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+    }
+    /* Pic 1 card */
+    .pic1 {
+        position: relative;
+      }
+      
+      .pic1 img {
+       height: 800px;
+       width: 750px;
+      }
+      
+      .pic1 .btn1 {
+        position: absolute;
+        width: 300px;
+        opacity: 0.2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+      .pic1 .btn1:hover {
+        background-color: white;
+        opacity: 1.0;
+      }
+
+      /* pic 2 card */
+      .pic2 {
+        position: relative;
+      }
+      
+      .pic2 img {
+       width: 750px;
+       height: 800px;
+      }
+      
+      .pic2 .btn2 {
+        position: absolute;
+        width: 300px;
+        opacity: 0.2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+      .pic2 .btn2:hover {
+        background-color: white;
+        opacity: 1.0;
+      }
+
+      /* MultiCorusel Height */
+      .carousel2 img{
+       height: 450px;
+      }
